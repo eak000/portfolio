@@ -111,7 +111,7 @@ header {
 
 .nav2 ul {
 	margin: 5% auto;
-	width: 26%;
+	width: 33%;
 }
 
 nav li {
@@ -166,9 +166,9 @@ article {
 
 #about {
 	margin: 3% auto 0;
-	background: #999999 url(../images/meround.png) center 10% no-repeat ;
+	background: #999999 url(../images/meround.png) center 13% no-repeat ;
 	clear: both;
-	padding: 15em 1em;
+	padding: 4em 1em 1em;
 }
 
 #about p {
@@ -180,8 +180,26 @@ article {
 
 #bio {
 	margin: 0 auto;
-	padding-top: 11%;
+	padding-top: 21%;
 	width: 60%;
+}
+
+#portfolio {
+	margin: 0 auto;
+	clear: both;
+	padding: 4em 1em 2em;
+	background-color: #f79618;
+}
+
+.thumbnail {
+	margin: 1.5em;
+	display: inline;
+}
+
+.thumbnail img {
+	border: 4px solid white;
+	width: 350px;
+	margin-bottom: 2.5em;
 }
 
 #background { 
