@@ -196,6 +196,18 @@ nav a {
 	color: #f9be3e;
 }
 
+.follow {
+	/*display: none;*/
+}
+
+.follow a {
+	font-size: .8em;
+	color:black;
+}
+
+.follow a:hover {
+	border: none;
+}
 /*main area style*/
 
 dl {
