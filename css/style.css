@@ -10,6 +10,48 @@
 
 }
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?ipy1t6');
+	src:url('../fonts/icomoon.eot?#iefixipy1t6') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?ipy1t6') format('woff'),
+		url('../fonts/icomoon.ttf?ipy1t6') format('truetype'),
+		url('../fonts/icomoon.svg?ipy1t6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 2em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+	content: "\e600";
+}
+.icon-arrow-down:before {
+	content: "\e601";
+}
+.icon-mail:before {
+	content: "\e602";
+}
+.icon-twitter:before {
+	content: "\e603";
+}
+.icon-github:before {
+	content: "\e604";
+}
+
 /** {
 	border: 1px red solid;
 }*/
@@ -44,9 +86,9 @@ a:hover {
 	border-bottom: 2px solid #BBBBBB;
 }
 
-a:visited {
+/*a:visited {
 	color: slategray;
-}
+}*/
 
 ul {
 	overflow: hidden;
@@ -97,6 +139,18 @@ header {
 }
 
 /* navigation style */
+
+
+nav li {
+	margin: 5px;
+	float: left;
+}
+
+nav a {
+	color: #CC4400;
+	font-family: 'Avant Garde', sans-serif;
+}
+
 .nav1 {
 	margin-bottom: 10px;
 	margin-top: -60px;
@@ -107,21 +161,39 @@ header {
 .nav2 {
 	clear: both;
 	overflow: hidden;
+	text-align:center;
+	color: black;
 }
 
 .nav2 ul {
+	margin: 1% auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.nav2 a {
+	color: #CC4400;
+}
+
+.nav2 a:hover {
+	color: white;
+}
+
+.arrows {
+	clear: both;
+	overflow: hidden;
 	margin: 5% auto;
 	width: 33%;
+	text-align: center;
 }
 
-nav li {
-	margin: 5px;
-	float: left;
+.arrows a {
+	color: white;
+	padding: .3em;
 }
 
-nav a {
-	color: #CC4400;
-	font-family: 'Avant Garde', sans-serif;
+.arrows a:hover {
+	color: #f9be3e;
 }
 
 /*main area style*/
@@ -235,6 +307,20 @@ article {
 .slideInfo a:hover {
 	border: none;
 	color: #999999;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	font-size: .85em;
+	color: #DDDDDD;
+	font-family: 'Avant Garde', sans-serif;
+	background-color: #999999;
+	padding: 15px;
+	clear: both;
 }
 
 #background { 
