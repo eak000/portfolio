@@ -164,6 +164,8 @@ article {
 	width: 70%;
 }
 
+/*About me section style*/
+
 #about {
 	margin: 3% auto 0;
 	background: #999999 url(../images/meround.png) center 13% no-repeat ;
@@ -184,6 +186,8 @@ article {
 	width: 60%;
 }
 
+/*portfolio section style*/
+
 #portfolio {
 	margin: 0 auto;
 	clear: both;
@@ -202,7 +206,7 @@ article {
 	width: 350px;
 }
 
-.item div {
+.slideInfo {
     width: 358px;
     height: 249px;
     padding: 9%;
@@ -216,8 +220,21 @@ article {
     font-weight: bold;
 }
 
-.item div h3 {
+.slideInfo h3 {
 	font-family: 'Avant Garde', sans-serif;
+}
+
+.slideInfo a {
+	margin-top: 2em;
+	padding: 0 .5em;
+	font-size: 1.5em;
+	display:inline-block;
+	color: #f79618;
+}
+
+.slideInfo a:hover {
+	border: none;
+	color: #999999;
 }
 
 #background { 
