@@ -83,7 +83,7 @@ a img {
 }
 
 a:hover {
-	border-bottom: 2px solid #BBBBBB;
+	color: #DE521D;
 }
 
 /*a:visited {
@@ -147,7 +147,7 @@ nav li {
 }
 
 nav a {
-	color: #CC4400;
+	color: #444444;
 	font-family: 'Avant Garde', sans-serif;
 }
 
@@ -162,7 +162,7 @@ nav a {
 	clear: both;
 	overflow: hidden;
 	text-align:center;
-	color: black;
+	color: #444444;
 }
 
 .nav2 ul {
@@ -172,11 +172,11 @@ nav a {
 }
 
 .nav2 a {
-	color: #CC4400;
+	color: #444444;
 }
 
 .nav2 a:hover {
-	color: white;
+	color: #CC4400;
 }
 
 .arrows {
@@ -193,16 +193,27 @@ nav a {
 }
 
 .arrows a:hover {
-	color: #f9be3e;
+	color: #CC4400;
 }
 
 .follow {
-	/*display: none;*/
+	display: none;
+}
+
+.followClick {
+	font-family: 'Avant Garde', sans-serif;
+	color:  #444444;
+	padding-top: 1px;
+}
+
+.followClick:hover {
+	color: #CC4400;
 }
 
 .follow a {
 	font-size: .8em;
 	color:black;
+	display: inline;
 }
 
 .follow a:hover {
@@ -313,7 +324,7 @@ article {
 	padding: 0 .5em;
 	font-size: 1.5em;
 	display:inline-block;
-	color: #f79618;
+	color: #CC4400;
 }
 
 .slideInfo a:hover {
@@ -327,7 +338,7 @@ footer {
 	left: 0;
 	right: 0;
 	height: 45px;
-	font-size: .85em;
+	/*font-size: .85em;*/
 	color: #DDDDDD;
 	font-family: 'Avant Garde', sans-serif;
 	background-color: #999999;

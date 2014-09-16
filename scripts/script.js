@@ -9,7 +9,7 @@ $(document).ready(function(){
     }); //overlay function end
 
  	//  function to show social media icons on click
- 		$(".followClick").hover(function(){
+ 		$(".followClick").click(function(){
  				$(".follow").show("slide", { direction: "right" }, 1000);
  			},function(){
  				$(".follow").hide("slide", { direction: "left" }, 1000);
