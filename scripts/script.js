@@ -3,9 +3,9 @@ $(document).ready(function(){
 	// function to show portfolio overlays on hover
 
     $(".item").hover(function(){
-        $(this).find(".slideInfo").slideDown("slow");
+        $(this).find(".overlayInfo").slideDown("slow");
     },function(){
-        $(this).find(".slideInfo").slideUp("slow");    
+        $(this).find(".overlayInfo").slideUp("slow");    
     }); //overlay function end
 
  	//  function to show social media icons on click

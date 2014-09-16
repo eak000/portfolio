@@ -144,11 +144,12 @@ header {
 nav li {
 	margin: 5px;
 	float: left;
+	font-family: 'Avant Garde', sans-serif;
+
 }
 
 nav a {
 	color: #444444;
-	font-family: 'Avant Garde', sans-serif;
 }
 
 .nav1 {
@@ -171,9 +172,9 @@ nav a {
 	text-align: center;
 }
 
-.nav2 a {
+/*.nav2 a {
 	color: #444444;
-}
+}*/
 
 .nav2 a:hover {
 	color: #CC4400;
@@ -301,7 +302,7 @@ article {
 	width: 350px;
 }
 
-.slideInfo {
+.overlayInfo {
     width: 358px;
     height: 249px;
     padding: 9%;
@@ -315,11 +316,11 @@ article {
     font-weight: bold;
 }
 
-.slideInfo h3 {
+.overlayInfo h3 {
 	font-family: 'Avant Garde', sans-serif;
 }
 
-.slideInfo a {
+.overlayInfo a {
 	margin-top: 2em;
 	padding: 0 .5em;
 	font-size: 1.5em;
@@ -327,9 +328,13 @@ article {
 	color: #CC4400;
 }
 
-.slideInfo a:hover {
+.overlayInfo a:hover {
 	border: none;
 	color: #999999;
+}
+
+.slideOutInfo {
+	display: none;
 }
 
 footer {
