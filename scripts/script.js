@@ -9,10 +9,12 @@ $(document).ready(function(){
     }); //overlay function end
 
  	//  function to show social media icons on click
- 		$(".followClick").click(function(){
- 				$(".follow").show("slide", { direction: "right" }, 1000);
- 			},function(){
- 				$(".follow").hide("slide", { direction: "left" }, 1000);
- 			}); // end social media function
-    
+ 		function overlay() {
+ 			$(".followClick").click(function(){
+ 				$(".follow").slideToggle('slow');
+ 				});
+ 			}; // end social media function
+   
+   overlay();
+
 }); // document ready end
