@@ -148,7 +148,7 @@ header {
 /* navigation style */
 
 
-nav li {
+nav li, .nav2 li {
 	margin: 5px;
 	float: left;
 	font-family: 'Avant Garde', sans-serif;
@@ -157,13 +157,6 @@ nav li {
 
 nav a {
 	color: #444444;
-}
-
-.nav1 {
-	/*margin-bottom: 10px;
-	margin-top: -60px;
-	position: absolute;
-	left: 380px;*/
 }
 
 .nav2 {
@@ -180,9 +173,9 @@ nav a {
 	text-align: center;
 }
 
-/*.nav2 a {
+.nav2 a {
 	color: #444444;
-}*/
+}
 
 .nav2 a:hover {
 	color: #CC4400;
