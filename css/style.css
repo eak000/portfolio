@@ -213,7 +213,8 @@ nav a {
 }
 
 .follow {
-	display: none;
+	/*display: none;*/
+	float: right;
 }
 
 .followClick {
@@ -357,9 +358,25 @@ div #portfolioBG {
 	color: #999999;
 }
 
-.slideOutInfo {
+/*.slideOutInfo {
 	display: none;
+	width: 90%;
+	padding: 3%;
+	border: black 1px solid;
+	overflow: hidden;
+	margin: 0 auto;
 }
+
+.slideOutInfo img {
+	width: 60%;
+	float: left;
+}
+
+.slideOutInfo p {
+	float: right;
+	display: inline;
+	width: 35%;
+}*/
 
 footer {
 	height: 45px;

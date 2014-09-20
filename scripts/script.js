@@ -9,12 +9,19 @@ $(document).ready(function(){
     }); //overlay function end
 
  	//  function to show social media icons on click
- 		function overlay() {
- 			$(".followClick").click(function(){
- 				$(".follow").slideToggle('slow');
- 				});
- 			}; // end social media function
+ 		// function follow() {
+ 		// 	$(".followClick").click(function(){
+ 		// 		$(".follow").slideToggle('slow');
+ 		// 		});
+ 		// 	}; // end social media function
+
+ 			// function slideOut() {
+ 			// 	$(".info").click(function() {
+ 			// 		$(".slideOutInfo").slideDown('slow');
+ 			// 	}); //end slideout function
+ 			// }
    
-   overlay();
+   // follow();
+   // slideOut();
 
 }); // document ready end
