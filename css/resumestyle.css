@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'ultraregular';
+    src: url('../fonts/Ultra-webfont.eot');
+    src: url('../fonts/Ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ultra-webfont.woff') format('woff'),
+         url('../fonts/Ultra-webfont.ttf') format('truetype'),
+         url('../fonts/Ultra-webfont.svg#ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bree_serifregular';
+    src: url('../fonts/breeserif-regular-webfont.eot');
+    src: url('../fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('../fonts/breeserif-regular-webfont.woff') format('woff'),
+         url('../fonts/breeserif-regular-webfont.ttf') format('truetype'),
+         url('../fonts/breeserif-regular-webfont.svg#bree_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?ipy1t6');
+	src:url('../fonts/icomoon.eot?#iefixipy1t6') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?ipy1t6') format('woff'),
+		url('../fonts/icomoon.ttf?ipy1t6') format('truetype'),
+		url('../fonts/icomoon.svg?ipy1t6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 2em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+	content: "\e600";
+}
+.icon-arrow-down:before {
+	content: "\e601";
+}
+.icon-mail:before {
+	content: "\e602";
+}
+.icon-twitter:before {
+	content: "\e603";
+}
+.icon-github:before {
+	content: "\e604";
+}
+
+
+html {
+	margin: 0 auto;
+}
+
+body {
+	font-weight: 400;
+	color: #444444;
+	font-family: 'bree_serifregular', serif;
+	height: 100%
+}
