@@ -108,8 +108,9 @@ h1 {
 	font-family: 'ultraregular', serif;
 	font-weight: 400;
 	letter-spacing: 2px;
-	font-size: 3.1em;
+	font-size: 2.5em;
 	vertical-align: middle;
+	display: inline;
 }
 
 h3 {
@@ -146,7 +147,7 @@ header {
     min-height: 100px;
     text-align: left;
     display: inline-block;
-    min-width: 490px;
+    min-width: 430px;
     margin-left: .5em;
 }
 
@@ -398,7 +399,19 @@ footer {
 	opacity: 0.5;
 }
 
+@media all and (min-device-width : 768px) and (max-device-width : 1110px) {
+	dl {
+		display: block;
+	}
 
+	img {
+		width: 250px;
+	}
+
+	#topHeader {
+		max-width: 600px;
+	}
+}
 
 
 
