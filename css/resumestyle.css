@@ -147,6 +147,18 @@ body {
 	clear: both;
 }
 
+footer {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 2em 0;
+}
+
+footer li {
+	display: inline;
+	padding: 0 1em;
+}
+
 h1 {
 	font-family: 'ultraregular', serif;
 	font-weight: 400;
