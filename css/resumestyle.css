@@ -41,8 +41,8 @@
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
-	font-size: 2em;
+	line-height: 1.3em;
+	font-size: 1.2em;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -58,11 +58,17 @@
 .icon-mail:before {
 	content: "\e602";
 }
-.icon-twitter:before {
+.icon-twitter:after {
 	content: "\e603";
+	padding-left: .5em;
 }
-.icon-github:before {
+.icon-github:after {
 	content: "\e604";
+	padding-left: .5em;
+}
+.icon-linkedin:after {
+	content: "\e601";
+	padding-left: .5em;
 }
 
 
@@ -73,6 +79,122 @@ html {
 body {
 	font-weight: 400;
 	color: #444444;
-	font-family: 'bree_serifregular', serif;
+	font-family: 'Avant Garde', sans-serif;
 	height: 100%
 }
+
+#container {
+	width: 90%;
+	margin: 5% auto;
+	min-height: 100%;
+	max-width: 960px;
+	line-height: 1.4em;
+}
+
+#right {
+	width: 60%;
+	float: right;
+}
+
+#left {
+	width: 40%;
+	float: right;
+}
+
+#intro {
+	padding-bottom: 2.4em;
+}
+
+#intro p {
+	line-height: 1.6em;
+}
+
+#contactInfo li {
+	display: inline;
+}
+
+#projects {
+	padding-top: 2em;
+}
+
+.logo {
+	display: block;
+	margin-right: 3em;
+	margin-left: auto;
+}
+
+#creds {
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 4em;
+}
+
+#socialMedia {
+	padding-right: 5em;
+	line-height: 1.6em;
+}
+
+#socialMedia ul {
+	text-align: right;
+}
+
+.extras {
+	clear: right;
+	padding-left: 3em;
+}
+
+#community {
+	clear: both;
+}
+
+h1 {
+	font-family: 'ultraregular', serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 2em;
+	color: #999999;
+	vertical-align: middle;
+	padding-top: 1em;
+	padding-bottom: .5em;
+
+}
+
+h2 {
+	padding: 1% 0;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	color: #CC4400;
+}
+
+a img {
+    border: none;
+}
+
+a:hover {
+	color: #DE521D;
+}
+
+ul {
+	overflow: hidden;
+	padding-bottom: .5em;
+}
+
+li {
+	list-style-type: none;
+}
+
+.title {
+	font-weight: bold;
+}
+
+
+
+
+

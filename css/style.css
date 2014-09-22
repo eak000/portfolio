@@ -64,6 +64,9 @@
 .icon-github:before {
 	content: "\e604";
 }
+.icon-linkedin:before {
+	content: "\e601";
+}
 
 
 html {
@@ -96,10 +99,6 @@ a:hover {
 	color: #DE521D;
 }
 
-/*a:visited {
-	color: slategray;
-}*/
-
 ul {
 	overflow: hidden;
 }
@@ -113,12 +112,7 @@ h1 {
 	font-weight: 400;
 	letter-spacing: 2px;
 	font-size: 3.1em;
-	/*margin-left: 30px;
-	margin-bottom: 47px;
-	display: inline-block;*/
 	vertical-align: middle;
-	/*padding-bottom: 2%;*/
-	/*color: #CC4400;*/
 }
 
 h3 {
@@ -136,6 +130,7 @@ p {
 	margin: 0 auto;
 	position: absolute;
 	min-height: 100%;
+	max-width: 1200px;
 }
 
 header {
@@ -209,6 +204,18 @@ nav a {
 }
 
 .arrows a:hover {
+	color: #CC4400;
+}
+
+#main .arrows {
+	padding: .5em;
+}
+
+#main .arrows a {
+	color: #999999;
+}
+
+#main .arrows a:hover {
 	color: #CC4400;
 }
 
