@@ -136,7 +136,7 @@ header {
 	background-repeat: no-repeat;
 	margin: 2% auto;
 	position: relative;
-	width: 70%;
+	width: 80%;
 	padding-top: 2%;
 	overflow: hidden;
 }
@@ -277,7 +277,7 @@ section {
 
 article {
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 }
 
 /*About me section style*/
@@ -306,7 +306,7 @@ article {
 
 div #portfolioBG {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding-top: 4em;
     padding-bottom: 2em;
     text-align: left;
