@@ -87,7 +87,7 @@ body {
 	width: 90%;
 	margin: 5% auto;
 	min-height: 100%;
-	max-width: 1200px;
+	max-width: 1000px;
 	line-height: 1.4em;
 }
 
@@ -198,6 +198,9 @@ ul {
 	padding-bottom: .5em;
 }
 
+#right ul {
+	padding-bottom: 2em;
+}
 li {
 	list-style-type: none;
 }
