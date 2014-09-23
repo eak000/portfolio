@@ -8,20 +8,17 @@ $(document).ready(function(){
         $(this).find(".overlayInfo").slideUp("slow");    
     }); //overlay function end
 
- 	//  function to show social media icons on click
- 		// function follow() {
- 		// 	$(".followClick").click(function(){
- 		// 		$(".follow").slideToggle('slow');
- 		// 		});
- 		// 	}; // end social media function
+ 	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
 
- 			// function slideOut() {
- 			// 	$(".info").click(function() {
- 			// 		$(".slideOutInfo").slideDown('slow');
- 			// 	}); //end slideout function
- 			// }
-   
-   // follow();
-   // slideOut();
+	    var target = this.hash,
+	    $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
 
 }); // document ready end
