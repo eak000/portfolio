@@ -10,9 +10,9 @@ $(".item").hover(function(){
 
     timer = setTimeout(function() {
         // do your stuff here
-        $(this).find(".overlayInfo").slideDown("slow");
+        $(this).find(".overlayInfo").slideDown("800");
     },function(){
-        $(this).find(".overlayInfo").slideUp("slow");    
+        $(this).find(".overlayInfo").slideUp("800");    
     }, delay);
 }, function() {
     // on mouse out, cancel the timer
@@ -21,9 +21,9 @@ $(".item").hover(function(){
 
 //my overlay function
    $(".item").hover(function(){
-        $(this).find(".overlayInfo").slideDown("slow");
+        $(this).find(".overlayInfo").slideDown("800");
     },function(){
-        $(this).find(".overlayInfo").slideUp("slow");    
+        $(this).find(".overlayInfo").slideUp("800");    
     }); //overlay function end
 
    //function for scrolling transitions
