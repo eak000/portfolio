@@ -314,9 +314,7 @@ div #portfolioBG {
 }
 
 #portfolio {
-	/*margin: 0 auto;*/
-	clear: both;
-	/*padding: 4em 1em 2em;*/
+	clear: both;	/*padding: 4em 1em 2em;*/
 	background-color: #f79618;
 	text-align: center;
 	width: 100%;
